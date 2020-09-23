@@ -1,16 +1,10 @@
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
-}
-
-.container::after {
-    content: '';
-    display: table;
-    clear: both;
-}
-
 [class*="col-"] {
     float: left;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
 }
 
 .col-xs-1 {
@@ -118,7 +112,7 @@
 @media screen and (min-width: 768px) {
 
     .col-md-1 {
-        width: calc((100% / 12);
+        width: calc(100% / 12);
     }
     .col-md-2 {
         width: calc((100% / 12) *2);
